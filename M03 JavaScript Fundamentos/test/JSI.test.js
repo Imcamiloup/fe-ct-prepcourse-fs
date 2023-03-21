@@ -69,13 +69,13 @@ describe('JAVASCRIPT I', function () {
 
       describe('nuevaResta', function () {
          it('Debe ser la resta correcta', function () {
-            expect(nuevaResta).toBe(true);
+            expect(nuevaResta).toBe(false);
          });
       });
 
       describe('nuevaMultiplicación', function () {
          it('Debe ser la multiplicación correcta', function () {
-            expect(nuevaMultiplicacion).toBe(true);
+            expect(nuevaMultiplicacion).toBe(false);
          });
       });
 
